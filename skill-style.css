@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.main{
+    background: #666DA2;
+    height: 55px;
+    width: 100%;
+}
+.main .logo{
+    font-family: Segoe Print;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 5px;
+}
+.main .menu-bar ul{
+    text-align: center;
+}
+.main .menu-bar ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 20px;
+}
+.main .menu-bar ul li a{
+    color: #666DA2;
+    font-family: Sitka Display;
+    font-weight: bold;
+    font-size: 21px;
+}
+.main .menu-bar ul  li a:hover{
+    color: #441242;
+    transition: 0.5s;
+}
+
+.menu{
+    width: 25%;
+    margin: 50px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.menu .image-one img{
+    width: 100%;
+    border: #666da2 solid 1PX;
+}
+.menu .title a{
+    color: #666DA2;
+    font-family: Sitka Display;
+    font-weight: bold;
+    font-size: 21px;
+}
+.menu .title a:hover{
+    color: #441242;
+    transition: 0.5s;
+}

@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.main{
+    background: #666DA2;
+    height: 55px;
+    width: 100%;
+}
+.main .logo{
+    font-family: Segoe Print;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 5px;
+}
+.main .menu-bar ul{
+    text-align: center;
+}
+.main .menu-bar ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 20px;
+}
+.main .menu-bar ul li a{
+    color: #666DA2;
+    font-family: Sitka Display;
+    font-weight: bold;
+    font-size: 21px;
+}
+.main .menu-bar ul  li a:hover{
+    color: #441242;
+    transition: 0.5s;
+}
+
+.text {
+    padding: 14%;
+}
+.text .name-text h3{
+    color: #441242;
+    font-family: Sitka Display;
+    font-size: 28px;
+}
+.text .paragraph-text p{
+    color: #666DA2;
+    font-family: Sitka Display;
+    font-size: 21px;
+}
+.text .button{
+    padding-left: 65px;
+    padding-top: 35px;
+}
+.text button{
+    background: #666DA2 ;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    width: 110px;
+    box-shadow: 0 6px 15px  rgba(0,0,0,0.5);
+}
+.text button a{
+    color: white;
+    font-family: Sitka Display;
+    font-size: 18px;
+}
+.text .image img{
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top: -35%;
+    margin-right: -10%;
+}
+button:hover{
+    background-color: #441242;
+    transition: 0.5s;
+}
+
+.menu{
+    width: 25%;
+    margin: 50px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.menu .image-one img{
+    width: 100%;
+    border: #666da2 solid 1PX;
+}
+.menu .title a{
+    color: #666DA2;
+    font-family: Sitka Display;
+    font-weight: bold;
+    font-size: 21px;
+}
+.menu .title a:hover{
+    color: #441242;
+    transition: 0.5s;
+}
+
+.about-text{
+    padding: 15%;
+}
+.about-text .text-one p{
+    color: #666DA2;
+    font-family: Sitka Display;
+    font-weight: bold;
+    font-size: 21px;
+}
+.about-text .follow h2{
+    color: #441242;
+    font-family: Sitka Display;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 220px;
+}
+.about-text .my-image img{
+    width: 40%;
+    height: 50%;
+    float: right;
+    margin-top: -26%;
+    margin-right: -10%;
+    border-radius: 50%;
+}
+.about-text .follow-image {
+    width: 6%;
+    display: inline-block;
+    margin: 13px;
+    padding-top: 20px;
+}
+.about-text .follow-image a img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    background-color: #666DA2;
+    color: white;
+    width: 100%;
+    height: 55px;
+    font-family: Sitka Display;
+    font-size: 18px;
+    padding-top: 18px;
+    position: sticky;
+    top: 100%;
+}
+
+@media (max-width: 858px){
+   
+}
